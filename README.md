@@ -1,6 +1,6 @@
 # Hospital_Management_&_Patients_Care_Analytics_with_PowerBI
 <p align="center">
-  <img src="assets/Healthcare dash.png" width="1000" />
+  <img src="assets/Dashboard.png" width="1000" />
 </p>
 
 
@@ -68,7 +68,7 @@ Specifically, this project aimed to:
 - **Diagnosis:** Patient condition (Diabetes, Hypertension, Flu, Asthma).
 - **Readmitted:** Flag if the patient was readmitted within 30 days of discharge.
 <p align="center">
-  <img src="assets/DataMod.png" width="1000" />
+  <img src="assets/ModelDark.png" width="1000" />
 </p>
 
 
