@@ -1,4 +1,4 @@
-# Hospital_Management_Patients_Care_Analytics_with_PowerBI
+# Hospital_Management_&_Patients_Care_Analytics_with_PowerBI
 <p align="center">
   <img src="assets/Healthcare dash.png" width="1000" />
 </p>
@@ -92,261 +92,154 @@ Tools & Techniques Used
 
 6. **Data Analysis & Insight Generation** to identify trends, performance gaps, and actionable recommendations for operational and clinical decision-making.
 
+>*⚠️ Note: This dataset is fictional and intended for educational and portfolio purposes only. No real patient data is used.*
+
 
 ---
 
 
 ## 🔗View the Live Dashboard
-You can interact with the fully published Power BI dashboard here:
+You can interact with the fully published Power BI dashboard here: 🔗 [View on PowerBI Service](https://app.powerbi.com/view?r=eyJrIjoiMjY2NTU1ZjUtYTFlNy00NWVmLWI5OWEtZTEyMWZmMDM1ZTk3IiwidCI6ImZmMGYzZTNhLTNlNTMtNDU0Zi1iMmI1LTZjNjg3NTNiOGVlNCJ9)
+>*(Best viewed on desktop for full functionality. Ensure pop-ups are allowed.)*
 
-🔗 [View on PowerBI Service](https://app.powerbi.com/view?r=eyJrIjoiMjY2NTU1ZjUtYTFlNy00NWVmLWI5OWEtZTEyMWZmMDM1ZTk3IiwidCI6ImZmMGYzZTNhLTNlNTMtNDU0Zi1iMmI1LTZjNjg3NTNiOGVlNCJ9)
-
-| (Best viewed on desktop for full functionality. Ensure pop-ups are allowed.)
 
 ---
 
 
-## 🔢 Customer Overview
-
+## Doctor Analysis & Insight
 <p align="center">
-  <img src="assets/CustomerDash.png" width="1000" />
+  <img src="assets/DoctorDash.png" width="1000" />
 </p>
 
-### Top KPIs (Key Performance Indicators)
-- Total Customers: 10,000
-- Average Balance: $76,486
-- Products per Customer: 1.53 on average
-- Active Customers: 51.51%
-- Median Credit Score: 652
+**Key Metrics**
+- 10 Total Doctors analyzed across multiple specialties
+- 22.40% Average Patient Recovery Rate across the facility
+- 50 Average Visits per Doctor, indicating balanced patient distribution
+- Sandro Meredith was identified as the doctor with the highest recovery %
 
-### 📊 Customer Segmentation: Analysis & Insights
-**1. By Location**
-- France has 50% (5,014) of the total customers.
-- Germany and Spain are almost equally represented (~25% each).
+**Gender Distribution**
+- Equal representation: 50% Male and 50% Female doctors, indicating a diverse and inclusive workforce
 
-**2. By Age Group & Gender**
-- Largest age segments:
-   - 35–44: 3,981 customers
-   - 25–34: 3,222 customers
-- Younger segment (<25) is the smallest: only 457 customers
-- Gender distribution is balanced across all age groups
+**Table-Level Findings**
+- Highest Treatment Success:
+  - Jennifer Singleton (Cardiology) – 89.13% and Laurie York (Pediatrics) – 88.00%
 
-**3. By Credit Score Band**
-- Majority of customers have fair to poor credit:
-   - Fair (580–669): 3,331 customers
-   - Poor (<580): 2,362 customers
-   - Good (670–739): 2,428 customers
-- Only 655 customers have Excellent (800+) scores - just 6.5% of the base
+- Lowest Recovery %:
+  - Kelly Green – 12.73% (possible indicator of case severity or data anomaly)
 
-**4. By Number of Products**
-- Over 50% have only 1 product
-  - 5,084 (1 product)
-  - 4,590 (2 products)
-- Very few are using 3+ products
+- Specialty Trends:
+  - Cardiology shows both high visit counts and mortality rates, indicating a need for deeper review.
 
-**5. By Balance Band**
-- High Balance (100k–150k): 3,830 customers
-- Low Balance (<50k): 3,692 customers
-- Medium (50k-100k): 1,509 customers
-- Very High Balance (150k+): 969 customers
-- Most balances are clustered at the extremes - either low or high, suggesting a bimodal distribution
+**Performance Insights**
+- Mortality (Deceased %) varies significantly, with some doctors reaching close to 35%, indicating potential process or case complexity issues
+- Jamie Smith and Kelly Green show the highest deceased percentages, requiring further evaluation
+- Pediatrics and Cardiology dominate visit counts, suggesting high patient load in these specialties
+- **It is important to mention that no doctor specializes in emergency**
 
 
-### ⚠️ Key Challenges Identified
-**1. Low Active Engagement**
-- With only 51.51% active customers, nearly half of the customer base is disengaged or dormant.
-  - This may contribute significantly to the 20.37% churn rate.
+## Patient Analysis & Insight
+<p align="center">
+  <img src="assets/PatDash.png" width="1000" />
+</p>
 
-**2. Low Cross-Sell Penetration**
-- Over 95% of customers have 1–2 products
-  - Suggests missed opportunities for upselling/cross-selling additional financial services (loans, credit cards, investments, etc.)
+**Patient Demographics & Volume**
+- St.Martha’s Hospital recorded 30 patients, with the largest age group being 18–35 years (11 patients)
+- The 35–60 age group is the least represented (5 patients), suggesting potential engagement or access gaps among middle-aged adults
+- As the population skews younger, this may influence service planning and targeted outreach
 
-**3. Weak Credit Quality**
-- With a median credit score of 652 and 5,693 customers in Fair or Poor segments, the bank may be carrying higher credit risk.
-  - Could impact loan default rates and profitability if not managed
+**Visit Activity & Care Continuity**
+- Despite a small patient base, the hospital logged 500 total visits, indicating very high utilization
+- Visits include 137 new visits and 363 returning visits, showing strong follow-up engagement and recurring care needs
+- A 34.60% readmission rate is significantly high and suggests possible issues in:
+  - Discharge planning
+  - Chronic care management
+  - Post-discharge follow-up protocols
+
+**Geographic & Seasonal Insights**
+- Most visits originate from France (245), followed by Ireland (137), the UK (64), and Spain (54). This reflects uneven regional reach and stronger adoption in France and Ireland
+- Monthly trends show a mid-year peak in July, suggesting seasonal health needs or operational factors influencing patient volume.
+
+
+## Department Analysis & Insight
+<p align="center">
+  <img src="assets/Dept Dash.png" width="1000" />
+</p>
+
+**Department Performance**
+- The facility operates a total of four departments with an overall 66.77% admission rate and 34.20% waiting caseload
+- Pediatrics has the highest bed occupancy at 91.67%, indicating strong and sustained demand
+- Cardiology follows with 88.57% occupancy, reflecting high patient load and potential wait-time pressures
+- Emergency shows the lowest occupancy at 29%, suggesting faster patient turnover, shorter stays, or capacity higher than current demand
+
+**Admission Volume**
+- Admissions are evenly distributed across units, showing consistent patient demand: Oncology 131, Cardiology 128, Emergency 122, Pediatrics 119
+- Differences in occupancy VS admissions highlight operational dynamics:
+  - High Emergency admissions + low occupancy = rapid discharge and high efficiency
+  - High Pediatrics occupancy + moderate admissions = longer stays or limited bed capacity
+
+**Visit Timing & Operational Implications**
+- Thursday and Friday experience the highest visit activity, with peak hours between 12 PM and 2 PM.
+- These patterns support opportunities for:
+  - Strategic staff scheduling
+  - Reinforcing high-demand units like Pediatrics and Cardiology
+  - Balancing load between departments to improve patient flow
+
+
+## Treatment Analysis & Insight
+<p align="center">
+  <img src="assets/Treatment Dash.png" width="1000" />
+</p>
+
+**Key Metrics Overview**
+- Average Treatment Cost: $683.33
+- Average Treatment Duration: 48minutes
+- Overall Treatment Success Rate: 77.40%
+- Readmission Rate: 34.60%
+- Chronic Illnesses Tracked: 4 major categories
+
+**Treatment Insights**
+- Six major treatments are offered across the hospital
+- Chemotherapy has the highest success rate (84.88%), making it the strongest performer.
+- MRI Scan (92 times) and ECG (90 times) are the most frequently performed procedures with success rates of 77.17% and 72.22%, respectively.
+
+**Operational & Outcome Insights**
+- Despite a strong overall success rate, the 34.60% readmission rate is significantly high, suggesting gaps in post-care or patient follow-up
+- Chronic illness cases show mid-year spikes, which may be due to seasonal trends
+- Variability in chronic illness frequency highlights the need for better long-term patient management.
 
 
 ---
 
 
-## 📊 Churn & Risk Overview
+## Business Recommendations
 
-<p align="right">
-  <img src="assets/churn1.png" width="1000" />
-</p>
+1. **Increase Treatment Success Rate**
+- Standardize Best Practices: Encourage cross-departmental sharing of methods used by top-performing doctors like Sandros Meredith
+- Clinical Audits: Review care protocols and outcomes monthly
+- Patient Education: Enhance health education to lower readmissions
+- Predictive Analytics: Use Power BI or AI models to flag high-risk patients for early intervention.
 
-### Top KPIs (Key Performance Indicators)
-- Churn Rate: 20.37%
-- No. of Customers churned: 2.037
-- Churned Balance: $186M
-- High-Risk Customers: 174
-- High-Value Churn Rate: 24.98%
-  - Key Risk: Nearly 25% of high-value customers churned, representing a significant financial loss and a priority focus area.
+2. **Reduce Waiting Cases**
+- Digital Queue Management: Implement patient scheduling and triage tools to distribute load efficiently
+- Expand Capacity During Peak Hours: Staff more heavily between 10 AM–12 PM and on Thursdays/Fridays
+- Fast-Track Low-Risk Patients: Streamline minor case handling through quick-care or telehealth.
 
-### 🌍 Churn by Location
+3. **Optimize Department Utilization**
+- Emergency Department Revamp: Investigate low occupancy, possibly due to underreporting, patient redirection, or staff shortage
+- Resource Allocation: Redirect resources or personnel from high-occupancy departments during off-peak times
+- Data-Driven Shifts: Use visit-by-hour trends to plan optimal staff schedules.
 
-| Country         | Churn Rate   | Churned Balance    | Key Insight                               |
-|-----------------|--------------|--------------------|-------------------------------------------|
-| **Germany**     |     32%      |       $97.9M       | Highest churn rate and balance loss       |
-| **Spain**       |     17%      |       $29.9M       | Moderate churn, lower financial exposure  |
-| **France**      |     16%      |       $57.7M       | Lower churn rate, but large value impact  |
+4. **Enhance Hospital Scalability & Credibility**
+- Introduce KPIs Dashboards for Staff: Transparent performance tracking to foster accountability
+- Benchmarking: Compare internal metrics (e.g., recovery%, readmission%) against national or provincial averages
+- Digital Transformation: Adopt EHR (Electronic Health Records) integration for cleaner data and smoother reporting
+- Public Transparency: Publish anonymized outcomes (successrates, patient satisfaction) to build public trust.
 
-⚠ Germany is a high-risk churn zone, both in terms of volume and financial value.
+5. **Leverage Data Analytics for Continuous Improvement**
+- Trend Analysis: Use historical patterns (like chronicillness peaks in July) to prepare seasonal campaigns
+- Patient Segmentation: Analyze recovery rates by age, gender, and treatment type to personalize interventions
+- Automate Alerts: Set up PowerBI alerts when KPIs exceed thresholds (e.g., readmission rate >30%).
 
-### Churn by Customer Type
-**1. Active vs. Inactive**
-- Inactive customers account for 65% of churn, which is only 48% of the base.
-- Active customer churn rate = 35%, indicating even active users aren't fully engaged.
-
-**Actionable Insight:** Inactivity is a major churn predictor. There is a need to consider stronger lifecycle management.
-
-<p align="right">
-  <img src="assets/risk2.png" width="1000" />
-</p>
-
-### Churn by Product Usage
-| No. of Products    | Churn Rate    | No. of Churned     |
-|--------------------|-------------- |--------------------|
-|   1                |     28%       |        1,409       | 
-|   2                |     8%        |        348         |
-|   3                |     83%       |        220         | 
-|   4                |     100%      |        60          |
-
-Customers with only 1 product are the largest churn group (1,409 customers).
-
-**Caution**
-
-The dataset shows a 100% churn rate for customers with four products. On investigation, this segment has a very small sample size, and all instances are labelled as churned. This appears to be a dataset artifact rather than a realistic banking behavior, so insights from this segment should be interpreted with caution. Strategic focus should remain on 1–3 product customers, where both volume and churn impact are material.
-
-### Churn by Age Group
-| Age Group       | Churn Rate    | No. of Churned                        |
-|-----------------|-------------- |---------------------------------------|
-|   45-54         |     48%       |  Extremely high churn risk            |
-|   55+           |     39%       |  Aging segment disengaging            |
-|   35-44         |     18%       |  Moderate risk                        | 
-|   <25           |     9%        |  Lower churn, oppourtunity to grow    |
-|   25-34         |     8%        |   Best-performing segment             |
-
-**Insight:** Mid-to-senior age customers are churning at 2-5x the rate of younger ones.
-
-### Churn by Credit Score Band
-| Credit Score Band       |  Churn Rate    |
-|-------------------------|----------------|
-|  Poor (<580)            |     22%        |
-|  Fair (580-669)         |     21%        |
-|  very Good (740-799)    |     21%        |
-|  Excellent (800+)       |     20%        |
-|  Good (670-739)         |     19%        |
-
-**Insight:**
-
-Churn is fairly consistent across credit bands, and no strong correlation between score and churn.
-
-### Churn Balance by Risk Tier
-
-| Risk Tier       |  Churned Balance  |
-|-----------------|-------------------|
-|  Medium         |     $106M         |
-|  low            |     $79.4M        |
-|  High           |     $0.2M         |
-
-**Insight:**
-- My analysis showed that customers at the highest churn risk tend to have lower balances, meaning they contribute less to direct financial loss.
-- The majority of revenue loss actually comes from medium-risk, higher-value customers.
-- This highlights the need for differentiated retention strategies.
-
-
----
-
-
-## Financial Performance Summary
-
-<p align="right">
-  <img src="assets/Summary.png" width="1000" />
-</p>
-
-### KPIs Overview
-- Total Customers: 10,000
-- Churn Rate: 20.37% (2,037 customers churned)
-- Average Retain Balance: $72,745
-- Average Churn Balance: $91,109
-- Total Balance: $765M
-- Geographies: France, Germany, Spain
-
-**Key Insights**
-**1. High Churn Rate**
-- A churn rate of 20.37% is relatively high, indicating a potential issue in customer retention.
-- The average balance of churned customers ($91,109) is higher than that of retained customers ($72,745), suggesting that higher-value customers are churning.
-
-**2. Geographical Distribution**
-- Majority of customers are from:
-  - France: 5,014 (50.1%)
-  - Germany: 2,509 (25.1%)
-  - Spain: 2,477 (24.8%)
-
-However, a filtered drill-down shows:
-- In Germany, customers under 25 years old, with medium churn risk, are notably present (96 customers).
-- Within this filtered segment, gender is almost equally split: 41 males, 36 females.
-
-**3. Age Group Analysis**
-- Most customers fall into 35-44 and 25-34 age groups:
-  - 35-44: 3,278 retained
-  - 25-34: 2,972 retained
-
-- However, <25 age group has the lowest retention (417) and churn (40) proportionally.
-- Suggests younger customers are more likely to churn.
-
-**4. Churn Risk Tiers**
-- Within the Germany/<25/Medium Risk segment:
-  - Most are in Medium Risk tier (77 out of 96).
-  - Low (14) and High (5) are negligible.
-
-
----
-
-
-## 🎯 Strategic Recommendations
-
-A. **Customer Retention Strategy**
-
-1. **Prioritize high-balance churners:**
-   - Since churned customers have higher average balances, create retention campaigns targeting high-value customers.
-   - Consider proactive outreach, loyalty rewards, or personalized financial advice.
-
-2. **Develop targeted interventions for medium-risk segments:**
-   - The largest risk category is medium. Launch "nudge" campaigns for this group to reduce the risk of escalation.
-   - Examples: financial planning tools, regular check-ins, or premium service trials.
-
-B. **Segment-Specific Strategies**
-
-1. **Adults (45-54 age group) and Seniors (55+ age group)**
-   - High churn and low retention indicate dissatisfaction or low engagement.
-   - Actions:
-     - Launch adults-focused products (e.g., retirement planning consultations, health savings-linked accounts, insurance bundles (health + life + critical illness)).
-     - Improve digital engagement (mobile banking, in-app "easy mode" interface).
-
-2. **Germany Segment**
-   - Customers <25 in Germany are showing churn behavior.
-   - Consider localized offers and customer engagement campaigns in Germany targeting this age group.
-
-C. **Geographic Focus**
-   - France has 50% of total customers – leverage this for upselling and cross-selling.
-   - Spain and Germany: Evaluate marketing ROI and retention performance to determine if higher engagement is needed.
-
-D. **Improve Churn Prediction & Early Warning**
-   - Use the existing churn risk tiers to build a predictive churn model based on:
-     - Age
-     - Geography
-     - Gender
-     - Credit Score
-     - Product usage
-     - Balance trends
-   - Focus on medium-risk segments and monitor any increase in early warning indicators.
-
-E. **Financial Impact Monitoring**
-   - Given that high churners have higher balances:
-     - Quantify potential revenue loss from churn and build a business case for investing in retention programs.
-     - Use dashboards to track CLV (Customer Lifetime Value) over time by segment.
 
 ### Next Steps
 
@@ -363,46 +256,11 @@ E. **Financial Impact Monitoring**
 
 ---
 
-🔗 [View the Live Dashboard](https://bit.ly/UnityBank_Customer_Churn_Risk)
 
+## Conclusion
+This PowerBI project provides a complete operational overview of St.Martha’s Hospital activities, helping management improve patient care and departmental performance.
 
-## Executive Summary
-
-This Power BI analytics solution provides Unity Bank with a comprehensive, data-driven view of its customer base, financial exposure, and churn risk. By leveraging the full capabilities of Power BI from data transformation to advanced DAX measures and interactive dashboards, the project delivers actionable insights that directly support customer retention, revenue protection, and risk mitigation efforts.
-
-This analysis reveals that Unity Bank is facing a critical customer churn challenge, with over 20% of customers exiting and a disproportionately high churn among medium-risk and high-balance clients. Inactivity, low product penetration, and regional concentration (notably in Germany) emerge as leading indicators of churn. Additionally, the bank’s current churn risk tiering underestimates the risk posed by medium-tier customers, who account for the largest share of churned balance value.
-
-The dashboards empower stakeholders to explore these dynamics through real-time, filterable views segmented by geography, age, credit score, product usage, and churn risk. This enables business leaders to move from reactive churn tracking to proactive customer engagement and risk prevention.
-
-## Executive Recommendation
-
-Unity Bank should implement a **targeted, data-driven customer retention strategy** focused on the following priorities:
-
-1. **Prioritize Medium-Risk and High-Balance Customers**  
-   - Proactively monitor and engage medium-risk customers, especially those with high balances, using early-warning signals from the dashboard.
-
-2. **Reactivate Inactive Customers**  
-   - Launch re-engagement campaigns and personalized offers for inactive users, who represent a large portion of churned customers.
-
-3. **Increase Product Penetration to Reduce Churn**  
-   - Design bundled product offerings and personalized cross-sell strategies to encourage customers with only one product to deepen their relationship with the bank.
-
-4. **Localize Retention Strategies by Region**  
-   - Tailor retention and service strategies for high-churn regions like Germany, where customer behavior significantly deviates from the rest of the portfolio.
-
-5. **Refine Risk Scoring Models**  
-   - Update churn risk models to reflect actual behavioral drivers found in the data, such as inactivity, single product ownership, and regional trends, to improve prediction accuracy.
-
-By implementing these actions, Unity Bank can significantly reduce churn, improve customer lifetime value, and drive sustainable revenue growth through smarter, insight-led decisions.
-
-
----
-
-
-## Disclaimer
-This project is for portfolio and educational display only.
-
-No content may be reused without permission.
+The insights enable better resource allocation, data-driven planning, and improved healthcare outcomes. The hospital demonstrates strong treatment efficiency overall, but strategic improvements in aftercare and specific treatment processes can significantly enhance patient outcomes and operational performance.  
 
 
 ---
