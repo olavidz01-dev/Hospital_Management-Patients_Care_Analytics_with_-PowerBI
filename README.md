@@ -241,18 +241,17 @@ You can interact with the fully published Power BI dashboard here: 🔗 [View on
 - Automate Alerts: Set up PowerBI alerts when KPIs exceed thresholds (e.g., readmission rate >30%).
 
 
-### Next Steps
+### What Next
 
-1. **Deep dive into churn drivers:** Survey churned customers, analyze product usage data.
+1. Enforce **role- and department-based access** with Row-Level Security (RLS).
 
-2. **Build retention models:** Use machine learning (e.g., logistic regression, random forest) to predict churn risk.
+2. Automate **scheduled data refresh** via Power BI Gateway for audit-ready reporting.
 
-3. **Refine segmentation:** Include behavioral data (transaction volume, complaints, digital activity).
+3. Integrate **patient feedback/survey** to deepen quality-of-care insights.
 
-4. **Test retention offers:** A/B test targeted campaigns for high-value and medium-risk customers.
+4. Enable **natural language Q&A** for rapid data exploration.
 
-5. **Monitor KPIs monthly:** Add trend charts for churn rate, NPS, and retention by geography and age.
-
+5. **Publish via Power BI Service** for secure, stakeholder-wide access.
 
 ---
 
